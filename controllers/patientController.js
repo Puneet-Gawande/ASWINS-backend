@@ -1,5 +1,7 @@
 const Patient = require('../models/Patient');
 
+
+
 exports.getAllPatients = async (req, res) => {
   try {
     const patients = await Patient.find();
